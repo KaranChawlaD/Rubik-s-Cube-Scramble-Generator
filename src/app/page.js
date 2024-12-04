@@ -18,13 +18,13 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
-      <h1 className="text-4xl font-bold mb-4">Rubik's Cube Scrambler</h1>
+      <h1 className="text-4xl font-bold mb-4">Cube Scramble Generator</h1>
       <p className="text-lg mb-8 text-gray-300">
-        Click the button to generate a scramble for your Rubik's Cube.
+        Click the button to generate a scramble for your Rubiks Cube.
       </p>
       <img
         src="/rubiks-cube.png"
-        alt="Rubik's Cube"
+        alt="Rubiks Cube"
         className="w-32 h-32 mb-6"
       />
       <div className="bg-gray-800 text-gray-200 p-4 rounded-lg mb-6 text-center text-2xl tracking-widest">
